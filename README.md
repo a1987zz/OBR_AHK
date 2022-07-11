@@ -1,3 +1,3 @@
-# OBR_AHK
+# OBR_AHK - This is legal wallhack for cs:go game
 
-https://www.unknowncheats.me/forum/cs-go-releases/464267-obr-ahk.html
+Release topic: https://www.unknowncheats.me/forum/cs-go-releases/464267-obr-ahk.html
