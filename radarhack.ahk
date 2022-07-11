@@ -2,10 +2,10 @@
 
 setbatchlines -1
 Process, Wait, csgo.exe
-csgo := new _ClassMemory("ahk_exe csgo.exe", "", hProcessCopy)
+csgo := new _ClassMemory("ahk_exe csgo.exe", "", hProcess)
 if !IsObject(csgo)
 {
-if (hProcessCopy = "")
+if (hProcess = "")
 msgbox class memory not correctly installed. Or the (global class) variable "_ClassMemory" has been overwritten
 msgbox A_LastError %A_LastError%
 ExitApp
