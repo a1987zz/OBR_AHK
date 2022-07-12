@@ -15,8 +15,8 @@ base := csgo.getModuleBaseAddress("client.dll")
 
 Pattern := [0x74, 0x15, 0x8B, 0x47, 0x08, 0x8D, 0x4F, 0x08]
  
-addres := csgo.modulePatternScan("client.dll", Pattern*)
-offsetradarhack := (addres - base) - 1
+address := csgo.modulePatternScan("client.dll", Pattern*)
+offsetradarhack := (address - base) - 1
  
 F11::
 t := !t
