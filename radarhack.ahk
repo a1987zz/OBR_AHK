@@ -20,8 +20,9 @@ offsetradarhack := (address - base) - 1
  
 F11::
 t := !t
+(t = 1) ? n := 2 : n := 0
 
-Data := t
+Data := n
 Size := 1
 
 VarSetCapacity(Buf, Size, 0)
